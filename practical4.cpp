@@ -16,7 +16,7 @@ class student
     student(student &temp);
     inline void get();
     static void show_cnt(){
-      cout<<"Number of objects are : "<<stdcnt;
+      cout<<"Number of objects are : "<<stdcnt<<endl;
     }
 };
 
